@@ -1,0 +1,19 @@
+{
+  "name": "servertut",
+  "version": "1.0.0",
+  "description": "server tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeeames/thinksterio-fundamentals-of-angular.git"
+  },
+  "author": "Daniel Coughlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeeames/thinksterio-fundamentals-of-angular/issues"
+  },
+  "homepage": "https://github.com/joeeames/thinksterio-fundamentals-of-angular#readme"
+}
