@@ -1,26 +1,25 @@
-import { Component, Input, EventEmitter, Output } from '@angular/core';
-import { WatchListService } from './watch-list.service';
+import { Component, EventEmitter, Input, Output } from "@angular/core";
+
+import { WatchListService } from "./watch-list.service";
 
 @Component({
-  selector: 'my-watch-list',
-  templateUrl: './watch-list.component.html',
-  styles: [  ]
+  selector: "my-watch-list",
+  templateUrl: "./watch-list.component.html",
+  styles: [],
 })
-export class WatchListComponent  {
-
+export class WatchListComponent {
   watchList$;
 
   constructor(private watchListService: WatchListService) {}
 
   ngOnInit() {
-    this.getWatchList()
+    this.getWatchList();
   }
 
   getWatchList() {
-    this.watchList$ = this.watchListService.getWatchList()
+    this.watchList$ = this.watchListService.getWatchList();
     // .subscribe(watchList => {
     //   this.watchList = watchList
     // })
   }
-
 }

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joeeames/thinksterio-fundamentals-of-angular/issues"
   },
-  "homepage": "https://github.com/joeeames/thinksterio-fundamentals-of-angular#readme"
+  "homepage": "https://github.com/joeeames/thinksterio-fundamentals-of-angular#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
 }

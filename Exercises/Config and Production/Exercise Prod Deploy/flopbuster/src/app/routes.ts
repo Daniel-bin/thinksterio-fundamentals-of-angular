@@ -1,9 +1,9 @@
 import { ActorListComponent } from './actor-list/actor-list.component';
-import { FlopListComponent } from './flop-list/flop-list.component';
 import { FlopDetailsComponent } from './flop-details/flop-details.component';
+import { FlopListComponent } from './flop-list/flop-list.component';
+import { FlopSuggestionComponent } from './flop-suggestion/flop-suggestion.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { FlopSuggestionComponent } from './flop-suggestion/flop-suggestion.component';
 
 export const routingTable = [
   { path: '', redirectTo: '/flops', pathMatch: 'full'},
