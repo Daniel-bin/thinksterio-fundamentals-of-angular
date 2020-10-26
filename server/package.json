@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch data.json",
@@ -12,5 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "json-server": "^0.16.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
